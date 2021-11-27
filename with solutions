@@ -1,0 +1,13 @@
+/* Create a function checkSign() that checks whether an integer number is positive, negative, or zero, and returns a String "positive", "negative" or "zero" as a result.*/
+
+fun checkSign(number: Int): String =
+  if (number > 0)
+    "positive"
+  else if (number < 0)
+    "negative"
+  else
+    "zero"
+
+fun main() {
+  println(checkSign(-19))  // negative
+}
